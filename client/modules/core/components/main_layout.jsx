@@ -6,7 +6,7 @@ const Layout = ({
 }) => (
 	<div>
 		<div>
-			<AppBar fixed>
+			<AppBar className="appbar" fixed>
 				<a href="/">La Jungla</a>
 				<Navigation className="appbar-right">
 					<Link href={FlowRouter.path('product.list')} label="Test Link" icon="inbox"/>
