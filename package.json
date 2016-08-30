@@ -12,9 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "classnames": "^2.2.5",
+    "flexboxgrid": "^6.3.1",
     "mantra-core": "^1.2.0",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
+    "react-flexbox-grid": "^0.10.2",
     "react-komposer": "^1.3.0",
     "react-mounter": "^1.0.0",
     "react-simple-di": "^1.0.1",
@@ -40,6 +43,7 @@
   },
   "cssModules": {
     "extensions": [
+			"css",
       "scss"
     ],
     "globalVariables": [
@@ -47,6 +51,10 @@
         "theme-building": true
       },
       "client/theme/toolbox-theme.scss"
+    ],
+    "ignorePaths": [
+      "node_modules/react-flexbox-grid/(doc|spec|test|)/",
+      "node_modules\\/flexboxgrid\\/(?!dist\\/flexboxgrid\\.css)"
     ]
   }
 }
