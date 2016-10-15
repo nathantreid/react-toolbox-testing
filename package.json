@@ -50,6 +50,9 @@
         "theme-building": true
       },
       "client/theme/toolbox-theme.scss"
+    ],
+    "ignorePaths": [
+      "node_modules/node-sass/"
     ]
   }
 }
