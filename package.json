@@ -45,7 +45,8 @@
       "scss"
     ],
     "globalVariables": [
-      "node_modules/react-toolbox/lib/_colors.scss", {
+      "node_modules/react-toolbox/lib/_colors.scss",
+      {
         "theme-building": true
       },
       "client/theme/toolbox-theme.scss"
